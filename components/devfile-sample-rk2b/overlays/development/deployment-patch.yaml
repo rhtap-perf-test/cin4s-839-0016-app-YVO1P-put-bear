@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-rk2b
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0016-tenant/cin4s-839-0016-app/devfile-sample-rk2b@sha256:92dc4beabc244e1d7353c92b932a997f3f43030d9592876fb6b3fd64aa398ed7
+        name: my-nodejs
+        resources: {}
+status: {}
